@@ -1,0 +1,317 @@
+
+/* -- main CSS for all the Pages -- */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.box {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+#logo {
+	width: 15%;
+	transition: 1s;
+}
+
+#logo:hover {
+	transform: scale(1.2);
+}
+
+nav {
+	position: absolute;
+	top: 70px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 45px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 24px;
+	transition: 1s;
+	text-shadow: 1px 1px 3px #811c2261;
+}
+
+nav a:hover {
+	color: #636063;
+	font-size: 25px;
+}
+
+nav a:active {
+	color: black;
+}
+
+main {
+	background: linear-gradient(#FFFFFF, #b12c35);
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: 35px 0 20px 0;
+    clear: left;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 2px 2px 3px #811c2261;
+}
+
+footer {
+	text-align: center;
+	background: #b12c35;
+}
+
+footer img {
+	width: 7%;
+	padding: 20px;
+}
+
+footer p {
+	padding-bottom: 5px;
+	font-size: 14px;
+}
+
+
+
+/* -- CSS for Home Page -- */
+
+.about {
+	padding: 2em 0;
+}
+
+.about p {
+    font-size: 18px;
+    padding: 15px 200px;
+    color: #000000;
+}
+
+.about strong {
+    font-weight: bold;
+}
+
+.about em {
+    font-style: italic;
+    color: #000000;
+}
+
+.carlinhos {
+    width: 240px;
+    float: left;
+    margin: 0 20px 20px 70px;
+    box-shadow: 10px 10px 8px #811c2261;
+    border: 2px solid #5e4e4e;
+    transition: 500ms;
+}
+
+.carlinhos:hover {
+	transform: scale(1.1);
+}
+
+.map {
+	padding: 2em 0;
+}
+
+.map p {
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+.map-content {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.benefits {
+	padding: 2em 0;
+}
+
+.benefits-content {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.items {
+	line-height: 1.5;
+	transition: 100ms;
+}
+
+.items:before {
+	content: "\00B7      ";
+	size: 10px;
+}
+
+.items:hover {
+	transform: scale(1.1);
+	font-weight: bold;
+}
+
+.benefits-list {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+    margin: 20px 70px 70px;
+}
+
+.image-benefits {
+    width: 30%;
+    transition: 500ms;
+    box-shadow: 10px 10px 8px #811c2261;
+    border: 2px solid #811c2261
+}
+
+.image-benefits:hover {
+	transform: scale(1.2);
+}
+
+.establishment img {
+    box-shadow: 10px 10px 8px #04000052;
+	padding-bottom: 30px;
+	transition: 500ms;
+}
+
+
+
+/* -- CSS for Gallery Page -- */
+
+.cuts {
+	text-align: center;
+}
+
+.cuts img {
+	width: 320px;
+	height: 320px;
+	margin: 30px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 8px #811c2261;
+	transition: 500ms;
+}
+
+.cuts img:hover {
+	transform: scale(1.1);
+}
+
+.more-images {
+	text-align: center;
+	padding: 30px;
+}
+
+.more-images img {
+	width: 68px;
+	transition: 500ms;
+}
+
+.more-images a {
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-shadow: 2px 2px 5px #811c2261;
+}
+
+.more-images p:hover {
+	color: #382f2f;
+}
+
+.more-images p {
+	padding: 15px;
+	color: #000000;
+	transition: 500ms;
+}
+
+.more-images img:hover {
+	transform: scale(1.1);
+}
+
+
+
+/* -- CSS for Contact Page -- */
+
+h3 {
+	font-size: 28px;
+	margin: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #811c2261;
+    text-transform: uppercase;
+}
+
+form {
+	margin: 20px 40px 0px;
+}
+
+form label, form legend {
+	display: block;
+	color: #000000;
+	margin: 0 0 10px;
+	font-size: 20px;
+}
+
+.pattern-input {
+	display: block;
+	margin: 0 0 20px;
+	width: 25%;
+	padding: 10px 15px;
+}
+
+.radio {
+	margin: 0 0 10px;
+}
+
+select {
+	width: 100px;
+	height: 25px;
+	text-align: center;
+}
+
+.checkbox {
+	margin: 30px 0;
+}
+
+.send {
+	width: 7%;
+	padding: 15px 0;
+	font-size: 20px;
+	border-style: double;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #919191;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.send:hover {
+	background-color: #6a6969;
+	transform: scale(1.10);
+}
+
+@media screen and (max-width: 480px) {
+	.box, .about, .benefits-content, .map-content {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.benefits-list, image-benefits {
+		width: 100%;
+	}
+}
