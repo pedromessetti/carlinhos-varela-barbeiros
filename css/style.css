@@ -177,10 +177,27 @@ footer p {
 	transform: scale(1.2);
 }
 
-.establishment img {
-    box-shadow: 10px 10px 8px #04000052;
-	padding-bottom: 30px;
-	transition: 500ms;
+.establishment {
+    padding: 80px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.carrossel {
+    overflow: hidden;
+    height: 318px;
+    width: 1140px;
+	margin: auto;
+}
+
+.container img {
+	padding: 30px;
 }
 
 
