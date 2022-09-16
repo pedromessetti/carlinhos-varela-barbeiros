@@ -91,6 +91,7 @@ footer p {
 
 .about {
 	padding: 2em 0;
+	height: 60vh;
 }
 
 .about p {
@@ -122,6 +123,7 @@ footer p {
 }
 
 .map {
+	height: 80vh;
 	padding: 2em 0;
 }
 
@@ -133,48 +135,6 @@ footer p {
 .map-content {
 	width: 940px;
 	margin: 0 auto;
-}
-
-.benefits {
-	padding: 2em 0;
-}
-
-.benefits-content {
-	width: 640px;
-	margin: 0 auto;
-}
-
-.items {
-	line-height: 1.5;
-	transition: 100ms;
-}
-
-.items:before {
-	content: "\00B7      ";
-	size: 10px;
-}
-
-.items:hover {
-	transform: scale(1.1);
-	font-weight: bold;
-}
-
-.benefits-list {
-	width: 40%;
-	display: inline-block;
-	vertical-align: top;
-    margin: 20px 70px 70px;
-}
-
-.image-benefits {
-    width: 30%;
-    transition: 500ms;
-    box-shadow: 10px 10px 8px #811c2261;
-    border: 2px solid #811c2261
-}
-
-.image-benefits:hover {
-	transform: scale(1.2);
 }
 
 .establishment {
